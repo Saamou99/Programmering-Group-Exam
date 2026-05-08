@@ -129,8 +129,8 @@ def insert_IOCs(incidentId, ioc_type, value):
             ) VALUES (?, ?, ?)
         """,(
             incidentId,
-            value,
-            ioc_type 
+            ioc_type,
+            value 
         ))
         conn.commit()
     except sqlite3.Error as e:
