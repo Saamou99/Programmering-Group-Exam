@@ -1,0 +1,213 @@
+2026-05-07 10:35:39,213 [INFO] Logger works!
+2026-05-07 12:35:40,747 [INFO] Setting up database...
+2026-05-07 12:35:40,790 [INFO] Requesting token...
+2026-05-07 12:35:40,793 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:35:40,846 [DEBUG] http://164.92.167.24:80 "POST /api/auth/token HTTP/1.1" 200 337
+2026-05-07 12:35:40,847 [INFO] Fetching incidents
+2026-05-07 12:35:40,848 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:35:40,965 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=0 HTTP/1.1" 200 286964
+2026-05-07 12:35:42,551 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:35:42,693 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=100 HTTP/1.1" 200 291240
+2026-05-07 12:35:44,267 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:35:44,394 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=200 HTTP/1.1" 200 293736
+2026-05-07 12:35:45,964 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:35:46,082 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=300 HTTP/1.1" 200 284079
+2026-05-07 12:35:47,669 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:35:47,797 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=400 HTTP/1.1" 200 287209
+2026-05-07 12:35:49,371 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:35:49,484 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=500 HTTP/1.1" 200 292421
+2026-05-07 12:35:51,063 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:35:51,267 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=600 HTTP/1.1" 200 291577
+2026-05-07 12:35:52,854 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:35:52,978 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=700 HTTP/1.1" 200 248759
+2026-05-07 12:35:53,049 [INFO] Fetched 785 incidents
+2026-05-07 12:35:53,226 [INFO] Incidents saved to incidents.json
+2026-05-07 12:35:53,226 [INFO] Sorting alerts in database...
+2026-05-07 12:39:40,987 [INFO] Setting up database...
+2026-05-07 12:39:40,989 [INFO] Requesting token...
+2026-05-07 12:39:40,991 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:39:41,030 [DEBUG] http://164.92.167.24:80 "POST /api/auth/token HTTP/1.1" 200 337
+2026-05-07 12:39:41,031 [INFO] Fetching incidents
+2026-05-07 12:39:41,032 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:39:41,155 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=0 HTTP/1.1" 200 286964
+2026-05-07 12:39:42,724 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:39:42,831 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=100 HTTP/1.1" 200 291240
+2026-05-07 12:39:44,401 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:39:44,515 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=200 HTTP/1.1" 200 293736
+2026-05-07 12:39:46,084 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:39:46,181 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=300 HTTP/1.1" 200 284079
+2026-05-07 12:39:47,763 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:39:47,862 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=400 HTTP/1.1" 200 287209
+2026-05-07 12:39:49,433 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:39:49,539 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=500 HTTP/1.1" 200 292421
+2026-05-07 12:39:51,107 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:39:51,206 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=600 HTTP/1.1" 200 291577
+2026-05-07 12:39:52,787 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:39:52,915 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=700 HTTP/1.1" 200 248759
+2026-05-07 12:39:52,980 [INFO] Fetched 785 incidents
+2026-05-07 12:39:53,170 [INFO] Incidents saved to incidents.json
+2026-05-07 12:39:53,170 [INFO] Sorting alerts in database...
+2026-05-07 12:49:36,775 [INFO] Setting up database...
+2026-05-07 12:49:36,777 [INFO] Requesting token...
+2026-05-07 12:49:36,779 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:49:36,814 [DEBUG] http://164.92.167.24:80 "POST /api/auth/token HTTP/1.1" 200 337
+2026-05-07 12:49:36,815 [INFO] Fetching incidents
+2026-05-07 12:49:36,816 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:49:36,915 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=0 HTTP/1.1" 200 286964
+2026-05-07 12:49:38,501 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:49:38,619 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=100 HTTP/1.1" 200 291240
+2026-05-07 12:49:40,193 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:49:40,301 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=200 HTTP/1.1" 200 293736
+2026-05-07 12:49:41,881 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:49:41,994 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=300 HTTP/1.1" 200 284079
+2026-05-07 12:49:43,584 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:49:43,701 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=400 HTTP/1.1" 200 287209
+2026-05-07 12:49:45,273 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:49:45,392 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=500 HTTP/1.1" 200 292421
+2026-05-07 12:49:46,989 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:49:47,089 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=600 HTTP/1.1" 200 291577
+2026-05-07 12:49:48,660 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:49:48,762 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=700 HTTP/1.1" 200 254235
+2026-05-07 12:49:48,827 [INFO] Fetched 788 incidents
+2026-05-07 12:49:49,001 [INFO] Incidents saved to incidents.json
+2026-05-07 12:49:49,001 [INFO] Sorting alerts in database...
+2026-05-07 12:53:21,475 [INFO] Setting up database...
+2026-05-07 12:53:21,477 [INFO] Requesting token...
+2026-05-07 12:53:21,479 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:53:21,517 [DEBUG] http://164.92.167.24:80 "POST /api/auth/token HTTP/1.1" 200 337
+2026-05-07 12:53:21,519 [INFO] Fetching incidents
+2026-05-07 12:53:21,520 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:53:21,674 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=0 HTTP/1.1" 200 286964
+2026-05-07 12:53:23,246 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:53:23,345 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=100 HTTP/1.1" 200 291240
+2026-05-07 12:53:24,926 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:53:25,018 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=200 HTTP/1.1" 200 293736
+2026-05-07 12:53:26,587 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:53:26,721 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=300 HTTP/1.1" 200 284079
+2026-05-07 12:53:28,322 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:53:28,440 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=400 HTTP/1.1" 200 287209
+2026-05-07 12:53:30,022 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:53:30,142 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=500 HTTP/1.1" 200 292421
+2026-05-07 12:53:31,724 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:53:31,828 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=600 HTTP/1.1" 200 291577
+2026-05-07 12:53:33,397 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:53:33,439 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=700 HTTP/1.1" 418 236
+2026-05-07 12:53:33,440 [ERROR] Exception occurred: 418 Client Error: I'M A TEAPOT for url: http://164.92.167.24/api/incidents?%24top=100&%24skip=700
+Traceback (most recent call last):
+  File "c:\Users\chris\OneDrive\Desktop\Eksamen prog\api.py", line 37, in fetch_incidents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 418 Client Error: I'M A TEAPOT for url: http://164.92.167.24/api/incidents?%24top=100&%24skip=700
+2026-05-07 12:53:33,461 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:53:33,565 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=700 HTTP/1.1" 200 254235
+2026-05-07 12:53:33,638 [INFO] Fetched 788 incidents
+2026-05-07 12:53:33,817 [INFO] Incidents saved to incidents.json
+2026-05-07 12:53:33,817 [INFO] Sorting alerts in database...
+2026-05-07 12:56:46,421 [INFO] Setting up database...
+2026-05-07 12:56:46,424 [INFO] Requesting token...
+2026-05-07 12:56:46,426 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:56:46,462 [DEBUG] http://164.92.167.24:80 "POST /api/auth/token HTTP/1.1" 200 337
+2026-05-07 12:56:46,462 [INFO] Fetching incidents
+2026-05-07 12:56:46,464 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:56:46,612 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=0 HTTP/1.1" 200 286964
+2026-05-07 12:56:48,197 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:56:48,339 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=100 HTTP/1.1" 200 291240
+2026-05-07 12:56:49,913 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:56:50,012 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=200 HTTP/1.1" 200 293736
+2026-05-07 12:56:51,593 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:56:51,708 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=300 HTTP/1.1" 200 284079
+2026-05-07 12:56:53,283 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:56:53,386 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=400 HTTP/1.1" 200 287209
+2026-05-07 12:56:54,951 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:56:55,119 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=500 HTTP/1.1" 200 292421
+2026-05-07 12:56:56,700 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:56:56,815 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=600 HTTP/1.1" 200 291577
+2026-05-07 12:56:58,401 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:56:58,502 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=700 HTTP/1.1" 200 254235
+2026-05-07 12:56:58,572 [INFO] Fetched 788 incidents
+2026-05-07 12:56:58,764 [INFO] Incidents saved to incidents.json
+2026-05-07 12:56:58,764 [INFO] Sorting alerts in database...
+2026-05-07 12:58:40,276 [INFO] Setting up database...
+2026-05-07 12:58:40,278 [INFO] Requesting token...
+2026-05-07 12:58:40,281 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:58:40,319 [DEBUG] http://164.92.167.24:80 "POST /api/auth/token HTTP/1.1" 200 337
+2026-05-07 12:58:40,320 [INFO] Fetching incidents
+2026-05-07 12:58:40,320 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:58:40,419 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=0 HTTP/1.1" 200 286964
+2026-05-07 12:58:41,989 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:58:42,101 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=100 HTTP/1.1" 200 291240
+2026-05-07 12:58:43,670 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:58:43,787 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=200 HTTP/1.1" 200 293736
+2026-05-07 12:58:45,381 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:58:45,483 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=300 HTTP/1.1" 200 284079
+2026-05-07 12:58:47,054 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:58:47,147 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=400 HTTP/1.1" 200 287209
+2026-05-07 12:58:48,733 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:58:48,841 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=500 HTTP/1.1" 200 292421
+2026-05-07 12:58:50,411 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:58:50,565 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=600 HTTP/1.1" 200 291577
+2026-05-07 12:58:52,135 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 12:58:52,235 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=700 HTTP/1.1" 200 254235
+2026-05-07 12:58:52,302 [INFO] Fetched 788 incidents
+2026-05-07 12:58:52,487 [INFO] Incidents saved to incidents.json
+2026-05-07 12:58:52,487 [INFO] Sorting alerts in database...
+2026-05-07 13:17:59,468 [INFO] Setting up database...
+2026-05-07 13:17:59,470 [INFO] Requesting token...
+2026-05-07 13:17:59,473 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 13:17:59,510 [DEBUG] http://164.92.167.24:80 "POST /api/auth/token HTTP/1.1" 200 337
+2026-05-07 13:17:59,511 [INFO] Fetching incidents
+2026-05-07 13:17:59,513 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 13:17:59,596 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=0 HTTP/1.1" 200 286964
+2026-05-07 13:18:01,185 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 13:18:01,238 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=100 HTTP/1.1" 418 292
+2026-05-07 13:18:01,239 [ERROR] Exception occurred: 418 Client Error: I'M A TEAPOT for url: http://164.92.167.24/api/incidents?%24top=100&%24skip=100
+Traceback (most recent call last):
+  File "c:\Users\chris\OneDrive\Desktop\Eksamen prog\api.py", line 43, in fetch_incidents
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\python314\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 418 Client Error: I'M A TEAPOT for url: http://164.92.167.24/api/incidents?%24top=100&%24skip=100
+2026-05-07 13:18:01,241 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 13:18:01,416 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=100 HTTP/1.1" 200 291240
+2026-05-07 13:18:02,987 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 13:18:03,104 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=200 HTTP/1.1" 200 293736
+2026-05-07 13:18:04,673 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 13:18:04,815 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=300 HTTP/1.1" 200 284079
+2026-05-07 13:18:06,401 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 13:18:06,513 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=400 HTTP/1.1" 200 287209
+2026-05-07 13:18:08,096 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 13:18:08,216 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=500 HTTP/1.1" 200 292421
+2026-05-07 13:18:09,797 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 13:18:09,901 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=600 HTTP/1.1" 200 291577
+2026-05-07 13:18:11,468 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-07 13:18:11,569 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=700 HTTP/1.1" 200 254235
+2026-05-07 13:18:11,639 [INFO] Fetched 788 incidents
+2026-05-07 13:18:11,834 [INFO] Incidents saved to incidents.json
+2026-05-07 13:18:11,834 [INFO] Sorting alerts in database...
+2026-05-08 09:26:15,549 [INFO] Setting up database...
+2026-05-08 09:26:15,552 [INFO] Requesting token...
+2026-05-08 09:26:15,552 [INFO] Fetching incidents
+2026-05-08 09:26:15,557 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-08 09:26:15,690 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=0 HTTP/1.1" 200 286964
+2026-05-08 09:26:17,382 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-08 09:26:17,546 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=100 HTTP/1.1" 200 291240
+2026-05-08 09:26:19,124 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-08 09:26:19,222 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=200 HTTP/1.1" 200 293736
+2026-05-08 09:26:20,802 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-08 09:26:21,029 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=300 HTTP/1.1" 200 284079
+2026-05-08 09:26:22,601 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-08 09:26:22,770 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=400 HTTP/1.1" 200 287209
+2026-05-08 09:26:24,540 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-08 09:26:24,715 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=500 HTTP/1.1" 200 292421
+2026-05-08 09:26:26,310 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-08 09:26:26,559 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=600 HTTP/1.1" 200 291577
+2026-05-08 09:26:28,134 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-08 09:26:28,384 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=700 HTTP/1.1" 200 291853
+2026-05-08 09:26:29,955 [DEBUG] Starting new HTTP connection (1): 164.92.167.24:80
+2026-05-08 09:26:30,144 [DEBUG] http://164.92.167.24:80 "GET /api/incidents?%24top=100&%24skip=800 HTTP/1.1" 200 206176
+2026-05-08 09:26:30,200 [INFO] Fetched 867 incidents
+2026-05-08 09:26:30,575 [INFO] Incidents saved to incidents.json
+2026-05-08 09:26:30,576 [INFO] Sorting alerts in database...
